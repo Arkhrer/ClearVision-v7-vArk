@@ -377,70 +377,72 @@ $classes: (
     'fastFollowsRefresh': (
       'refreshGuildBg': 'refresh-fast-follow-guild-bg',
     ),
+    'bottomAlignedChatInput' : (
+      'alignChatInput': 'align-chat-input',
 
-    'userModalV2': (
-      'modal': 'user-profile-modal-v2',
-      'profile': 'profile__9c3be',
-    ),
+      // below most recent message
+      'scrollerSpacer': 'scrollerSpacer__36d07',
+      'chatGradientBase': 'chatGradientBase__36d07',
+    )
   ),
 
   'input': (
-    'wrapper': 'inputWrapper__0f084',
+    'wrapper': 'wrapper__3412a',
+
+    'container': 'container__0f084',
     'input': 'input__0f084',
     'focused': 'focused__0f084',
-    'field': 'inputField_d64f22',
-    'multiField': 'multiInputField_b404ff',
-    'copy': 'copyInput_cedfaf',
   ),
   'checkbox': (
     // checkboxes
-    'wrapper': 'checkboxWrapper_f525d3',
-    'wrapperDisabled': 'checkboxWrapperDisabled_f525d3',
-    'checkbox': 'checkbox_f525d3',
-    'checked': 'checked_f525d3',
+    'wrapper': 'checkboxWrapper_c4538f',
+    'wrapperDisabled': 'checkboxWrapperDisabled_c4538f',
+    'checkbox': 'checkbox_c4538f',
+    'checked': 'checked_c4538f',
 
     // input stuffs
-    'input': 'input_f525d3',
-    'inputDefault': 'inputDefault_f525d3',
-    'inputDisabled': 'inputDisabled_f525d3',
-    'inputReadonly': 'inputReadonly_f525d3',
+    'input': 'input_c4538f',
+    'inputDefault': 'inputDefault_c4538f',
+    'inputDisabled': 'inputDisabled_c4538f',
+    'inputReadonly': 'inputReadonly_c4538f',
 
     // shapes
-    'round': 'round_f525d3',
-    'box': 'box_f525d3',
-    'smallBox': 'smallBox_f525d3',
+    'round': 'round_c4538f',
+    'box': 'box_c4538f',
+    'smallBox': 'smallBox_c4538f',
 
     // labels
-    'label': 'label_f525d3',
-    'labelClickable': 'labelClickable_f525d3',
-    'labelDisabled': 'labelDisabled_f525d3',
-    'labelForward': 'labelForward_f525d3',
-    'labelReversed': 'labelReversed_f525d3',
+    'label': 'label_c4538f',
+    'labelClickable': 'labelClickable_c4538f',
+    'labelDisabled': 'labelDisabled_c4538f',
+    'labelForward': 'labelForward_c4538f',
+    'labelReversed': 'labelReversed_c4538f',
 
-    'row': 'row_f525d3',
-    'alignTop': 'alignTop_f525d3',
-    'alignCenter': 'alignCenter_f525d3',
+    'row': 'row_c4538f',
+    'alignTop': 'alignTop_c4538f',
+    'alignCenter': 'alignCenter_c4538f',
   ),
 
   'switch': (
-    'container': 'container__87bf1',
-    'slider': 'slider__87bf1',
-    'checked': 'checked__87bf1',
-    'disabled': 'disabled__87bf1',
-    'input': 'input__87bf1',
+    'container': 'container__6f89e',
+    'slider': 'slider__6f89e',
+    'checked': 'checked__6f89e',
+    'disabled': 'disabled__6f89e',
+    'input': 'input__6f89e',
   ),
 
   'radio': (
-    'item': 'item__001a7',
-    'itemDisabled': 'disabled__001a7',
-    'bar': 'radioBar__001a7',
-    'barInfo': 'info__001a7',
-    'iconForeground': 'radioIconForeground__001a7',
-    'indicatorChecked': 'radioIndicatorChecked__001a7',
-    'refreshIconFill': 'refreshIconFill__001a7',
-    'refreshIconStroke': 'refreshIconStroke__001a7',
-    'refreshIcon': 'refreshIcon__001a7',
+    'item': 'item__1bda4',
+    'itemDisabled': 'disabled__1bda4',
+    'bar': 'radioBar__1bda4',
+    'barInfo': 'info__1bda4',
+    'iconForeground': 'radioIconForeground__1bda4',
+    'indicatorChecked': 'radioIndicatorChecked__1bda4',
+    'refreshIconFill': 'refreshIconFill__1bda4',
+    'refreshIconStroke': 'refreshIconStroke__1bda4',
+    'refreshIcon': 'refreshIcon__1bda4',
   ),
+
   'slider': (
     'slider': 'slider_a562c8',
     'mini': 'mini_a562c8',
@@ -457,6 +459,17 @@ $classes: (
     'markDashSimple': 'markDashSimple_a562c8',
     'defaultValue': 'defaultValue_a562c8',
   ),
+
+  'pagination': (  
+    // page control buttons
+    // found in search and shop (browse)  
+    'pageControlContainer': 'pageControlContainer_c15210',
+    'pageControl': 'pageControl_c15210',
+    'pageButton': 'pageButton_c15210',
+    'activeButton': 'activeButton_c15210',
+    'endButton': 'endButton_c15210',
+  ),
+
   'text': (
     // These are within the same group but not with the rest. not sure where to put these
     'textNormalDefaultColor': 'defaultColor__4bd52',
@@ -555,22 +568,22 @@ $classes: (
         'bold':'text-xs\/bold_cf4812',
       ),
       'sm': (
-        'normal': 'text-sm\/normal_f9d828' 'text-sm\/normal_a8af02' 'text-sm\/normal__4ed1a' 'text-sm\/normal_a39fe9' 'text-sm\/normal_aabef9' 'text-sm\/normal_c23051' 'text-sm\/normal_cf4812' 'text-sm\/normal_b717a1' 'text-sm\/normal_df8943' 'text-sm\/normal_ec1c2d',
-        'medium': 'text-sm\/medium_f9d828' 'text-sm\/medium_a8af02' 'text-sm\/medium__4ed1a' 'text-sm\/medium_a39fe9' 'text-sm\/medium_aabef9' 'text-sm\/medium_c23051' 'text-sm\/medium_cf4812' 'text-sm\/medium_b717a1' 'text-sm\/medium_df8943' 'text-sm\/medium_ec1c2d',
-        'semibold': 'text-sm\/semibold_f9d828' 'text-sm\/semibold_a8af02' 'text-sm\/semibold__4ed1a' 'text-sm\/semibold_a39fe9' 'text-sm\/semibold_aabef9' 'text-sm\/semibold_c23051' 'text-sm\/semibold_cf4812' 'text-sm\/semibold_b717a1' 'text-sm\/semibold_df8943' 'text-sm\/semibold_ec1c2d',
-        'bold': 'text-sm\/bold_f9d828' 'text-sm\/bold_a8af02' 'text-sm\/bold__4ed1a' 'text-sm\/bold_a39fe9' 'text-sm\/bold_aabef9' 'text-sm\/bold_c23051' 'text-sm\/bold_cf4812' 'text-sm\/bold_b717a1' 'text-sm\/bold_df8943' 'text-sm\/bold_ec1c2d',
+        'normal': 'text-sm\/normal_cf4812',
+        'medium': 'text-sm\/medium_cf4812',
+        'semibold': 'text-sm\/semibold_cf4812',
+        'bold': 'text-sm\/bold_cf4812',
       ),
       'md': (
-        'normal': 'text-md\/normal_f9d828' 'text-md\/normal_a8af02' 'text-md\/normal__4ed1a' 'text-md\/normal_a39fe9' 'text-md\/normal_aabef9' 'text-md\/normal_c23051' 'text-md\/normal_cf4812' 'text-md\/normal_b717a1' 'text-md\/normal_df8943' 'text-md\/normal_ec1c2d',
-        'medium': 'text-md\/medium_f9d828' 'text-md\/medium_a8af02' 'text-md\/medium__4ed1a' 'text-md\/medium_a39fe9' 'text-md\/medium_aabef9' 'text-md\/medium_c23051' 'text-md\/medium_cf4812' 'text-md\/medium_b717a1' 'text-md\/medium_df8943' 'text-md\/medium_ec1c2d',
-        'semibold': 'text-md\/semibold_f9d828' 'text-md\/semibold_a8af02' 'text-md\/semibold__4ed1a' 'text-md\/semibold_a39fe9' 'text-md\/semibold_aabef9' 'text-md\/semibold_c23051' 'text-md\/semibold_cf4812' 'text-md\/semibold_b717a1' 'text-md\/semibold_df8943' 'text-md\/semibold_ec1c2d',
-        'bold': 'text-md\/bold_f9d828' 'text-md\/bold_a8af02' 'text-md\/bold__4ed1a' 'text-md\/bold_a39fe9' 'text-md\/bold_aabef9' 'text-md\/bold_c23051' 'text-md\/bold_cf4812' 'text-md\/bold_b717a1' 'text-md\/bold_df8943' 'text-md\/bold_ec1c2d',
+        'normal': 'text-md\/normal_cf4812',
+        'medium': 'text-md\/medium_cf4812',
+        'semibold': 'text-md\/semibold_cf4812',
+        'bold': 'text-md\/bold_cf4812',
       ),
       'lg': (
-        'normal': 'text-lg\/normal_f9d828' 'text-lg\/normal_a8af02' 'text-lg\/normal__4ed1a' 'text-lg\/normal_a39fe9' 'text-lg\/normal_aabef9' 'text-lg\/normal_c23051' 'text-lg\/normal_cf4812' 'text-lg\/normal_b717a1' 'text-lg\/normal_df8943' 'text-lg\/normal_ec1c2d',
-        'medium': 'text-lg\/medium_f9d828' 'text-lg\/medium_a8af02' 'text-lg\/medium__4ed1a' 'text-lg\/medium_a39fe9' 'text-lg\/medium_aabef9' 'text-lg\/medium_c23051' 'text-lg\/medium_cf4812' 'text-lg\/medium_b717a1' 'text-lg\/medium_df8943' 'text-lg\/medium_ec1c2d',
-        'semibold': 'text-lg\/semibold_f9d828' 'text-lg\/semibold_a8af02' 'text-lg\/semibold__4ed1a' 'text-lg\/semibold_a39fe9' 'text-lg\/semibold_aabef9' 'text-lg\/semibold_c23051' 'text-lg\/semibold_cf4812' 'text-lg\/semibold_b717a1' 'text-lg\/semibold_df8943' 'text-lg\/semibold_ec1c2d',
-        'bold': 'text-lg\/bold_f9d828' 'text-lg\/bold_a8af02' 'text-lg\/bold__4ed1a' 'text-lg\/bold_a39fe9' 'text-lg\/bold_aabef9' 'text-lg\/bold_c23051' 'text-lg\/bold_cf4812' 'text-lg\/bold_b717a1' 'text-lg\/bold_df8943' 'text-lg\/bold_ec1c2d',
+        'normal': 'text-lg\/normal_cf4812',
+        'medium': 'text-lg\/medium_cf4812',
+        'semibold': 'text-lg\/semibold_cf4812',
+        'bold': 'text-lg\/bold_cf4812',
       ),
     ),
   ),
@@ -736,20 +749,20 @@ $classes: (
     // new button classes
     // brand, white and inverted are using old classes
     'new': (
-      'button': 'button__6af3a',
-      'hasText': 'hasText__6af3a',
+      'button': 'button_a22cb0',
+      'hasText': 'hasText_a22cb0',
 
-      'small': 'sm__6af3a',
-      'medium': 'md__6af3a',
-      'fullWidth': 'fullWidth__6af3a',
+      'small': 'sm_a22cb0',
+      'medium': 'md_a22cb0',
+      'fullWidth': 'fullWidth_a22cb0',
 
-      'primary': 'primary__6af3a',
-      'secondary': 'secondary__6af3a',
-      'criticalPrimary': 'critical-primary__6af3a',
-      'criticalSecondary': 'critical-secondary__6af3a',
-      'active': 'active__6af3a',
-      'overlayPrimary': 'overlay-primary__6af3a',
-      'overlaySecondary': 'overlay-secondary__6af3a',
+      'primary': 'primary_a22cb0',
+      'secondary': 'secondary_a22cb0',
+      'criticalPrimary': 'critical-primary_a22cb0',
+      'criticalSecondary': 'critical-secondary_a22cb0',
+      'active': 'active_a22cb0',
+      'overlayPrimary': 'overlay-primary_a22cb0',
+      'overlaySecondary': 'overlay-secondary_a22cb0',
     )
   ),
   'call': (
@@ -1770,11 +1783,14 @@ $classes: (
   'serverBoosts': (
     'container': 'container__89463',
     'contentContainer': 'contentContainer__89463',
-    'parentCard': 'parentContainer__98cbd',
-    'card': 'container__98cbd',
-    'cardActive': 'active__98cbd',
-    'cardWarning': 'warning__98cbd',
+    'parentCard': 'parentContainer__5573a',
     'sidebarContainer': 'sidebarContainer__89463',
+
+    'card': 'container__5573a',
+    'cardActive': 'active__5573a',
+    'cardWarning': 'warning__5573a',
+
+    'sidebarCard': 'container__6c253',
   ),
 
   'chatForm': (
@@ -2291,12 +2307,12 @@ $classes: (
 
   'shop': (
     'shop': 'shop__6db1d',
-    'scroller': 'shopScroll__6db1d',
+    'scroll': 'shopScroll__1feb0',
     'header': 'headerBar__80679',
 
     // featured
+    'featuredScroll': 'shopScroll__08415',
     'featured': 'shop__08415',
-    'shopAllButton': 'shopAll__08415',
 
     // browse
     'pageWrapper': 'pageWrapper__1feb0',
@@ -2324,6 +2340,9 @@ $classes: (
     'previewInfo': 'collectibleInfoContainer_c50f62',
     'chatPreview': 'chatPreview_c50f62',
     'mockInput': 'mockInput_c50f62',
+
+    // orb
+    'orbCard': 'baseCardOutline__1ab14',
   ),
 
   'boost': (
@@ -2723,11 +2742,6 @@ $classes: (
     'jumpButtonContainer': 'buttonsContainer__02a39',
     'jumpButton': 'button__02a39',
     'navContainer': 'container__3f123',
-    'pageControlContainer': 'pageControlContainer_c15210',
-    'pageControl': 'pageControl_c15210',
-    'pageButton': 'pageButton_c15210',
-    'activeButton': 'activeButton_c15210',
-    'endButton': 'endButton_c15210',
     'errorImage': 'errorImage_a9e706',
     'errorMessage': 'errorMessage_a9e706',
     // paired with emptyResultsText
@@ -2897,6 +2911,7 @@ $classes: (
         'scroller': 'scroller__99e7c',
         'headerContainer': 'privateChannelsHeaderContainer__99e7c',
         // Similar to category for servers
+        'tall': 'tall__99e7c',
         'headerText': 'headerText__99e7c',
         'startActivityIcon': 'plusIcon__675e5',
         // with play again - might need to start an activity prior
@@ -3604,53 +3619,58 @@ $classes: (
       // Generic-ish classes
       // default colours are now provided with inline styling.
       'badgeList': 'container__8061a',
-      'note': 'note_fcb628',
-      'noteTextarea': 'textarea__9daae',
-
       // seems to be used on all of them
       'showOutOfBoundaryComponents': 'showOutOfBoundaryComponents_c69a7b',
 
       // profile backgrounds
       'customTheme': 'custom-user-profile-theme',
       'userPopout': 'user-profile-popout',
-      'userModal': 'user-profile-modal',
+      'userModal': 'user-profile-modal' 'user-profile-modal-v2',
+      // bots still on v1 profile
       'userSidebar': 'user-profile-sidebar',
       'overlay': 'overlay_c0bea0',
       'outer': 'outer_c0bea0',
       'inner': 'inner_c0bea0',
 
-      // status
-      'statusBubbleContainer': 'container_ab8609',
-      'statusBubbleOuter': 'outer_ab8609',
-      'statusBubbleInner': 'inner_ab8609',
+      'status': (
+        'container': 'container_ab8609',
+        'outer': 'outer_ab8609',
+        'inner': 'inner_ab8609',
+
+        // hover over own status
+        'tooltip': 'tooltip__4e35b',
+        'tooltipContent': 'tooltipContent__4e35b',
+        'caretIcon': 'caretIcon__4e35b',
+        'caretFill': 'caretFill__4e35b',
+      ),
 
       // Banners are in their own line. The SVG Wrapper is in its own line.
       'banner': (
-          'banner': 'banner__68edb',
-          'gifTag': 'gifTag__68edb',
-          'mask': 'mask__68edb',
-        ),
+        'banner': 'banner__68edb',
+        'gifTag': 'gifTag__68edb',
+        'mask': 'mask__68edb',
+      ),
 
       // shared between modal+panel+popout+status+settings>profile
       // container also holds badges, notes button
       'username': (
-          'container': 'container__63ed3',
-          'clickableUsername': 'clickableUsername__63ed3',
-          'nickname': 'nickname__63ed3',
-          'userTagUsername': 'userTagUsername__63ed3',
-          'biteSize': 'biteSize__63ed3',
-          'panel': 'panel__63ed3',
-          'fullSize': 'fullSize__63ed3',
-          'nicknameIcons': 'nicknameIcons__63ed3',
-          'usernameRow': 'usernameRow__63ed3',     
-          'usernameContainer': 'container__63ed3',
-          'tags': 'tags__63ed3',
-          'userTag': 'userTag__63ed3',
-          'pronounsTooltip': 'pronounsTooltip__63ed3',
-          'pronouns': 'pronouns__63ed3',
-          'userTagDiscriminator': 'userTagDiscriminator__63ed3',
-          'dotSpacer': 'dotSpacer__63ed3',     
-        ),
+        'container': 'container__63ed3',
+        'clickableUsername': 'clickableUsername__63ed3',
+        'nickname': 'nickname__63ed3',
+        'userTagUsername': 'userTagUsername__63ed3',
+        'biteSize': 'biteSize__63ed3',
+        'panel': 'panel__63ed3',
+        'fullSize': 'fullSize__63ed3',
+        'nicknameIcons': 'nicknameIcons__63ed3',
+        'usernameRow': 'usernameRow__63ed3',     
+        'usernameContainer': 'container__63ed3',
+        'tags': 'tags__63ed3',
+        'userTag': 'userTag__63ed3',
+        'pronounsTooltip': 'pronounsTooltip__63ed3',
+        'pronouns': 'pronouns__63ed3',
+        'userTagDiscriminator': 'userTagDiscriminator__63ed3',
+        'dotSpacer': 'dotSpacer__63ed3',     
+      ),
 
       // shared between modal+panel+popout (not self)+status
       // contains:
@@ -3683,6 +3703,14 @@ $classes: (
         ),
 
       'overlayScroller': 'scroller_fcb628',
+
+      'button': (
+        // edit profile button not included
+        'themeColor': 'themeColor_fb7f94',
+        'primary': 'primary_fb7f94',
+        'secondary': 'secondary_fb7f94',
+        'inner': 'buttonInner_fb7f94',
+      ),
 
       // actually used on the modal!
       'memberSince': (
@@ -3724,9 +3752,15 @@ $classes: (
 
       // Modal: right click on user in same spots and click "View Profile"
       'modal': (
-        'root': 'root__24502',
-        'headerInner': 'headerInner__24502',
-        'body': 'body__24502',
+        'root': 'root__9c3be',
+        'bgImage': 'backgroundImage__9c3be', // nitro profiles only
+        'profile': 'profile__9c3be',
+        'profileHeader': 'profileHeader__9c3be',
+        'profileBody': 'profileBody__9c3be',
+        'profileButtons': 'profileButtons__9c3be',
+        'profileRolesSection': 'profileRolesSection__9c3be',
+        'profileNote': 'profileNote__9c3be',
+        
 
         // cannot find these but they're in the same rule as connections
         'connections': (
@@ -3749,22 +3783,24 @@ $classes: (
             'openIcon': 'connectedAccountOpenIcon_e6abe8',
           ),
 
-          'listScroller': 'listScroller__9d78f',
-          'listRow': 'listRow__9d78f',
-          'listAvatar': 'listAvatar__9d78f',
-          'listRowContent': 'listRowContent__9d78f',
-          'listName': 'listName__9d78f',
-          'listDiscriminator': 'listDiscriminator__9d78f',
-          'empty': 'empty__9d78f',
-          'emptyIcon': 'emptyIcon__9d78f',
-          'emptyIconFriends': 'emptyIconFriends__9d78f',
-          'emptyIconGuilds': 'emptyIconGuilds__9d78f',
-          'emptyIconStreamerMode': 'emptyIconStreamerMode__9d78f',
-          'emptyText': 'emptyText__9d78f',
+        'listScroller': 'listScroller__9d78f',
+        'listRow': 'listRow__9d78f',
+        'listAvatar': 'listAvatar__9d78f',
+        'listRowContent': 'listRowContent__9d78f',
+        'listName': 'listName__9d78f',
+        'listDiscriminator': 'listDiscriminator__9d78f',
+        'empty': 'empty__9d78f',
+        'emptyIcon': 'emptyIcon__9d78f',
+        'emptyIconFriends': 'emptyIconFriends__9d78f',
+        'emptyIconGuilds': 'emptyIconGuilds__9d78f',
+        'emptyIconStreamerMode': 'emptyIconStreamerMode__9d78f',
+        'emptyText': 'emptyText__9d78f',
 
-          'guildAvatar': 'guildAvatar_aafe31',
-          'guildAvatarWithoutIcon': 'guildAvatarWithoutIcon_aafe31',
-          'guildNick': 'guildNick_aafe31',
+        'guildAvatar': 'guildAvatar_aafe31',
+        'guildAvatarWithoutIcon': 'guildAvatarWithoutIcon_aafe31',
+        'guildNick': 'guildNick_aafe31',
+          
+        'noteTextarea': 'textarea__9daae',
         ),
 
       // Go to the DMs of someone while your screen is larger than
