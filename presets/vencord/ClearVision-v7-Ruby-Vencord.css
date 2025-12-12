@@ -115,12 +115,80 @@
   --muted-text: #86868e; /* muted text color [default: #86868e] */
 }
 
-/* ADD ADDITIONAL CSS BELOW HERE */
-
+/* ===== VARIÁVEIS PERSONALIZADAS ===== */
 :root {
-/* ACCENT COLORS */
---main-color: #eb3131; /* main accent color (hex, rgb or hsl) [default: #e67a27] */
---hover-color: #f00a17; /* hover accent color (hex, rgb or hsl) [default: #b31e1e] */
-/* APP BACKGROUND */
---background-image: rgba(27, 27, 29, 1); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/ruby.jpg)]*/
+    /* PALETA DE CORES PRINCIPAL */
+    --main-color: #eb3131;
+    --hover-color: #f00a17;
+    --success-color: #43b581;
+    --danger-color: #982929;
+
+    /* FUNDO */
+    --background-image: none;
+    --background-primary: #1b1b1d;
+    --background-secondary: #232325;
+    --background-tertiary: #2d2d2f;
+    --background-accent: #3a3a3c;
+    --background-floating: #000000;
+
+    /* TEXTO */
+    --text-normal: #ffffff;
+    --text-muted: #b9bbbe;
+    --text-link: #eb3131;
+
+    /* CANAIS */
+    --channeltextarea-background: #2d2d2f;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #ffffff;
+    --interactive-active: #eb3131;
+    --interactive-muted: #4f545c;
+
+    /* MENSAGENS */
+    --background-message-hover: rgba(0, 0, 0, 0.1);
+
+    /* BARRAS */
+    --scrollbar-thin-thumb: #eb3131;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #eb3131;
+    --scrollbar-auto-track: #2d2d2f;
+}
+
+/* ===== CUSTOMIZAÇÕES ADICIONAIS ===== */
+/* Botões com gradiente vermelho */
+.button-1EGGcP {
+    background: linear-gradient(45deg, #eb3131, #f00a17);
+    transition: all 0.3s ease;
+}
+
+.button-1EGGcP:hover {
+    background: linear-gradient(45deg, #f00a17, #eb3131);
+    transform: translateY(-2px);
+}
+
+/* Ajuste nos ícones do servidor */
+.circleIconButton-1QV--U {
+    background-color: var(--background-primary);
+}
+
+.circleIconButton-1QV--U:hover {
+    background-color: var(--main-color);
+}
+
+/* Barras de rolagem mais finas */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 4px;
+}
+
+/* Cabeçalho com gradiente sutil */
+.container-1D34oG {
+    background: linear-gradient(
+        to right,
+        rgba(235, 49, 49, 0.1),
+        rgba(27, 27, 29, 0.8)
+    );
 }
