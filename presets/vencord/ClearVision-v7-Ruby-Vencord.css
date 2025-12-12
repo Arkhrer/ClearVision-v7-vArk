@@ -116,3 +116,11 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
+:root {
+/* ACCENT COLORS */
+--main-color: #eb3131; /* main accent color (hex, rgb or hsl) [default: #e67a27] */
+--hover-color: #f00a17; /* hover accent color (hex, rgb or hsl) [default: #b31e1e] */
+/* APP BACKGROUND */
+--background-image: rgba(27, 27, 29, 1); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/ruby.jpg)]*/
+}
